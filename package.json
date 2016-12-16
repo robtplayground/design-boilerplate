@@ -4,7 +4,7 @@
   "description": "PLAYGROUND XYZ Design Boilerplate",
   "main": "index.html",
   "scripts": {
-    "dev": "npm-run-all -p watch:css watch:sync",
+    "start": "npm-run-all -p watch:css watch:sync",
     "css": "node bin/scss.js",
     "uglify": "uglifyjs js/app.js --compress --mangle -o ./js/app.min.js",
     "watch:css": "onchange \"scss/*.scss\" -- npm run css",
